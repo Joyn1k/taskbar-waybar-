@@ -1,0 +1,53 @@
+{
+    "layer": "bottom",
+    "position": "top",
+    "height": 32,
+    "spacing": 4,
+    "modules-left": ["sway/workspaces", "wlr/taskbar"],
+    "modules-center": [],
+    "modules-right": ["tray", "pulseaudio", "clock", "language"],
+    
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{name}",
+        "persistent_workspaces": {
+            "1": [], "2": [], "3": [], "4": [], "5": [], 
+            "6": [], "7": [], "8": [], "9": [], "10": []
+        },
+    },
+    
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 25,
+        "tooltip": true,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "ignore-list": [],
+        "all-outputs": false,
+        "cursor": "default"
+    },
+    
+    "tray": {
+        "icon-size": 18,
+        "spacing": 8,
+    },
+    
+    "pulseaudio": {
+        "format": "VOL {volume}%",
+        "format-muted": "MUTED",
+        "scroll-step": 5,
+        "on-click": "pavucontrol",
+        "max-length": 10,
+        "cursor": "default"
+    },
+    
+    "clock": {
+        "format": "{:%H:%M}",
+        "interval": 60,
+        "max-length": 5,
+        "tooltip-format": "{:%Y-%m-%d %A}"
+     }
+
+}

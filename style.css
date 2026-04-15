@@ -1,0 +1,83 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "DejaVu Sans Mono", monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #1f1e1e;
+    color: #d57901;
+    border-bottom: 1px solid #d57901;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    background: transparent;
+    color: #aaaaaa;
+}
+
+#workspaces button:hover {
+    background: #ffffff;
+    color: #1f1e1e;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+#taskbar button:hover {
+    background: #ffffff;
+    color: #1f1e1e;
+}
+
+#pulseaudio:hover {
+    background: transparent;
+    color: #d57901;
+}
+
+#clock:hover {
+    background: transparent;
+    color: #d57901;
+}
+
+#language:hover {
+    background: transparent;
+    color: #d57901;
+}
+
+#tray button:hover {
+    background: transparent;
+    color: inherit;
+}
+
+button:hover {
+    background: transparent;
+}
+
+#workspaces button.focused {
+    background: #d57901;
+    color: #d57901;
+    border-bottom: 2px solid #aaaaaa;
+}
+
+#workspaces button.occupied {
+    color: #d57901;
+}
+
+#workspaces button.empty {
+    color: #d57901;
+}
+
+#pulseaudio, #clock {
+    padding: 0 7px;
+    border: none;
+}
+
+#pulseaudio.muted {
+    color: #aa5555;
+}
+
+#clock {
+    font-weight: bold;
+    margin-right: 5px;
+}

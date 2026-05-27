@@ -6,7 +6,7 @@
     min-height: 0;
 }
 
-#window waybar {
+window#waybar {
     background: #1f1e1e;
     color: #d57901;
     border-bottom: 1px solid #d57901;

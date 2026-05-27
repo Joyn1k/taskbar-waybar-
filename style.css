@@ -41,20 +41,6 @@ button:hover {
     background: transparent;
 }
 
-#workspaces button.focused {
-    background: #d57901;
-    color: #d57901;
-    border-bottom: 2px solid #aaaaaa;
-}
-
-#workspaces button.occupied {
-    color: #d57901;
-}
-
-#workspaces button.empty {
-    color: #d57901;
-}
-
 #pulseaudio, #clock {
     padding: 0 7px;
     border: none;

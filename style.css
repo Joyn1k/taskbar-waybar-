@@ -12,19 +12,6 @@ window#waybar {
     border-bottom: 1px solid #d57901;
 }
 
-#workspaces button {
-    padding: 0 8px;
-    background: transparent;
-    color: #aaaaaa;
-}
-
-#workspaces button:hover {
-    background: #ffffff;
-    color: #1f1e1e;
-    box-shadow: none;
-    text-shadow: none;
-}
-
 #taskbar button:hover {
     background: #ffffff;
     color: #1f1e1e;

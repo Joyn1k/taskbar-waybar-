@@ -27,11 +27,6 @@ window#waybar {
     color: #d57901;
 }
 
-#language:hover {
-    background: transparent;
-    color: #d57901;
-}
-
 #tray button:hover {
     background: transparent;
     color: inherit;
